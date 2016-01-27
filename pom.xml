@@ -136,7 +136,7 @@
                         <configuration>
                             <excludes>
                              
-                    <exclude>*/.repository/</exclude>
+                    <exclude>**/.repository/</exclude>
 
 
                                 <exclude>**/css/treeview.css</exclude>
