@@ -136,7 +136,10 @@
                         <configuration>
                             <excludes>
                              
-                    <exclude>.repository</exclude>
+                    <exclude>**/.repository/</exclude>
+
+                    <exclude>*/.repository/</exclude>
+                    <exclude>.repository/</exclude>
 
                     <exclude>**/_maven.repositories</exclude>
 
