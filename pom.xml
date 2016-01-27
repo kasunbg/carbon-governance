@@ -135,6 +135,9 @@
                         </goals>
                         <configuration>
                             <excludes>
+                             
+                    <exclude>.repository</exclude>
+
                                 <exclude>**/css/treeview.css</exclude>
                                 <exclude>**/js/yuiloader-min.js</exclude>
                                 <exclude>**/js/tinyxmlw3cdom.js</exclude>
